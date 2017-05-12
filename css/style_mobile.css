@@ -4,6 +4,15 @@ body{
 
 }
 
+header {
+	height: 180px;
+
+	
+
+
+
+}
+
 #conteudo_mobile{
 	height: 100%;
 	width: 100%;
@@ -13,7 +22,7 @@ body{
 
 }
 
-@media (min-width:767px){
+/*@media (min-width:767px){
 
 	#conteudo_mobile{
 		display: none;
@@ -22,4 +31,7 @@ body{
 
 
 }
+*/
+
+
 

@@ -5,13 +5,115 @@ body{
 }
 
 header {
-	height: 180px;
+	height: 220px;
+}
+#topo_header{
+	background-image: url(../img/header.png);
+	height: 150px;
+	background-color: #f7e252;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.navbar{
+	position: relative;
+	background-color: #92a9b7;
+	height: 50px;
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
 
+
+}
+#logo_mobile{
+	padding-top: 10px;
+
+
+}
+#bottom_menu{
+	background-color: #5b768b;
+	height: 20px;
+	margin-top:-20px;
 	
 
 
 
 }
+.navbar-nav{
+	background-color: #92a9b7;
+
+
+
+}
+#secao{
+border-radius: 0px 7px 7px 0px;
+-moz-border-radius: 0px 7px 7px 0px;
+-webkit-border-radius: 0px 7px 7px 0px;
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	color: #fff;
+	font-size: 14px;
+	background-color:#8aaa7d;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	width: auto;
+	margin-left: -20px;
+	padding-left: 20px;
+	float: left;
+	padding-right: 10px;
+	margin-top: 15px;
+	margin-right: 170px;
+	margin-bottom: 15px;
+
+}
+#edicao{
+	font-size: 12px;
+	padding-top: 17px;
+	margin-left: 20px;
+
+
+}
+.navbar-toggle{
+	color: #fff;
+	background-color: #fff;
+
+
+}
+.collapsed{
+	color: #fff;
+	background-color: #fff;
+
+
+}
+.sr-only{
+	color: #fff;
+	background-color: #fff;
+
+
+}
+.icon-bar{
+	color: #fff;
+	background-color: #fff;
+
+
+}
+.navbar a{
+	color: #fff;
+
+
+}
+.nav>li>a:focus,.nav>li>a:hover{
+	text-decoration:none;
+	background-color:#5b768b;
+
+
+}
+
+.navbar-header{
+
+	color: #fff;
+}
+
+
+
 
 #conteudo_mobile{
 	height: 100%;
@@ -21,6 +123,56 @@ header {
 	position: absolute;
 
 }
+#conteudo_mobile p{
+	font-family: Trebuchet, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	margin-bottom: 15px;
+
+
+
+
+}
+#conteudo_mobile h2{
+	color: #5b768b;
+	font-size: 14px;
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	width: 100%;
+	font-weight: bold;
+	
+
+}
+
+footer{
+	height: 61px;
+	float: right;
+	border-top: 1px #c6c7c7 solid;
+	width: 100%;
+
+
+
+}
+#redes-sociais-mobile{
+	height: 30px;
+	margin-top: 15px;
+	float: right;
+	width: 50%;
+}
+#siga-nos{
+	width: 50%;
+	float: left;
+
+
+}
+
+#redes-sociais-mobile img{
+	height: 30px;
+	width: 30px;
+	margin-right: 30px;
+	float: right;
+}
+
+
 
 /*@media (min-width:767px){
 
